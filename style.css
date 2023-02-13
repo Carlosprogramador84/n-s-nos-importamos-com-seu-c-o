@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    color: #989D9C;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+    word-spacing: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 18px;
+    line-height: 29px;
+    color: #989D9C;
+    width: 126px;
+    height: 29px;
+    font-weight: 600;
+
+
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.button-menu {
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    width: 120px;
+    height: 47px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 200px;
+    width: 33rem;
+    margin-top: 190px;
+}
+
+
+
+figure {
+    margin-left: 100px;
+    margin-top: 170px;
+    width: 460px;
+}
+
+
+.logo-image {
+    width: 28rem;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    color: #848484;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+
+.button-explore {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    background: #ADFF00;
+    border-radius: 25.5px;
+    color: #000000;
+    width: 217px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1314px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: border-box;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    section {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        margin-top: 510px;
+
+    }
+
+    figure {
+        margin: 0;
+        margin-bottom: 230px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        position: absolute;
+    }
+
+    .logo-image{
+        margin: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 61px;
+        color: #515151;
+        height: 52px;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 1px;
+
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        height: 37px;
+        margin-top: 15px;
+        margin-bottom: 17px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    button {
+        text-align: center;
+        font-size: 15px;
+        width: 100px;
+        margin-top: 8px;
+        padding: 0;
+        letter-spacing: 1px;
+
+    }
+
+}
+@media screen and (max-width: 379px){
+
+h1 {
+
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 61px;
+        color: #515151;
+        height: 52px;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 1px;
+
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        height: 37px;
+        margin-top: 15px;
+        margin-bottom: 17px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    button {
+        text-align: center;
+        font-size: 15px;
+        width: 100px;
+        margin-top: 8px;
+        padding: 0;
+        letter-spacing: 1px;
+
+    }
+    section {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        margin-top: 425px;
+}
+}
