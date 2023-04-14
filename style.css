@@ -15,10 +15,11 @@ header {
     margin-left: 76px;
     word-spacing: 20px;
     cursor: pointer;
+    
 }
 
 .menu {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 29px;
     color: #989D9C;
     width: 126px;
@@ -57,7 +58,7 @@ section {
 
 figure {
     margin-left: 100px;
-    margin-top: 170px;
+    margin-top: 200px;
     width: 460px;
 }
 
@@ -95,9 +96,9 @@ p {
 
 .button-explore {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 34px;
-    background: #ADFF00;
+    background: #FFFF00;
     border-radius: 25.5px;
     color: #000000;
     width: 217px;
@@ -159,7 +160,7 @@ p {
     h1 {
 
         font-weight: 900;
-        font-size: 45px;
+        font-size: 30px;
         line-height: 61px;
         color: #515151;
         height: 52px;
@@ -171,11 +172,11 @@ p {
 
     h2 {
         font-weight: 500;
-        font-size: 30px;
+        font-size: 22px;
         line-height: 37px;
         color: #515151;
         height: 37px;
-        margin-top: 15px;
+        margin-top: 66px;
         margin-bottom: 17px;
         justify-content: center;
         text-align: center;
@@ -189,7 +190,7 @@ p {
         text-align: center;
         font-size: 15px;
         width: 100px;
-        margin-top: 8px;
+        margin-top: 20px;
         padding: 0;
         letter-spacing: 1px;
 
@@ -201,7 +202,7 @@ p {
 h1 {
 
         font-weight: 900;
-        font-size: 45px;
+        font-size: 17px;
         line-height: 61px;
         color: #515151;
         height: 52px;
@@ -213,7 +214,7 @@ h1 {
 
     h2 {
         font-weight: 500;
-        font-size: 30px;
+        font-size: 17px;
         line-height: 37px;
         color: #515151;
         height: 37px;
@@ -229,7 +230,7 @@ h1 {
 
     button {
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
         width: 100px;
         margin-top: 8px;
         padding: 0;
